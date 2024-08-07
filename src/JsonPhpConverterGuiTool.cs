@@ -15,7 +15,7 @@ namespace Mickverm.DevToys.JsonPhpConverter;
     IconGlyph = '\u0109',
     GroupName = PredefinedCommonToolGroupNames.Converters,
     ResourceManagerAssemblyIdentifier = nameof(ResourceAssemblyIdentifier),
-    ResourceManagerBaseName = "DevToys.JsonPhpConverter.Resources.Resources",
+    ResourceManagerBaseName = "Mickverm.DevToys.JsonPhpConverter.Resources.Resources",
     ShortDisplayTitleResourceName = nameof(Resources.Resources.ShortDisplayTitle),
     LongDisplayTitleResourceName = nameof(Resources.Resources.LongDisplayTitle),
     DescriptionResourceName = nameof(Resources.Resources.Description),
