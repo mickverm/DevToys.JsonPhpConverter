@@ -1,7 +1,7 @@
 ﻿using DevToys.Api;
 using System.ComponentModel.Composition;
 
-namespace DevToys.JsonPhpConverter.Resources;
+namespace Mickverm.DevToys.JsonPhpConverter.Resources;
 
 
 [Export(typeof(IResourceAssemblyIdentifier))]

@@ -1,12 +1,12 @@
 ﻿using DevToys.Api;
-using DevToys.JsonPhpConverter.Helpers;
-using DevToys.JsonPhpConverter.Models;
-using DevToys.JsonPhpConverter.Resources;
+using Mickverm.DevToys.JsonPhpConverter.Helpers;
+using Mickverm.DevToys.JsonPhpConverter.Models;
+using Mickverm.DevToys.JsonPhpConverter.Resources;
 using Microsoft.Extensions.Logging;
 using System.ComponentModel.Composition;
 using static DevToys.Api.GUI;
 
-namespace DevToys.JsonPhpConverter;
+namespace Mickverm.DevToys.JsonPhpConverter;
 
 [Export(typeof(IGuiTool))]
 [Name("JsonPhpConverter")]

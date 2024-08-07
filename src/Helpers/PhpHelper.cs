@@ -1,9 +1,9 @@
 ﻿using DevToys.Api;
-using DevToys.JsonPhpConverter.Models;
+using Mickverm.DevToys.JsonPhpConverter.Models;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;
 
-namespace DevToys.JsonPhpConverter.Helpers;
+namespace Mickverm.DevToys.JsonPhpConverter.Helpers;
 
 internal static partial class PhpHelper
 {

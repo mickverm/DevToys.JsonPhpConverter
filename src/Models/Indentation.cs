@@ -1,4 +1,4 @@
-﻿namespace DevToys.JsonPhpConverter.Models;
+﻿namespace Mickverm.DevToys.JsonPhpConverter.Models;
 
 internal enum Indentation
 {
