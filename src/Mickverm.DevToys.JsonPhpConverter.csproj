@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<IsPackable>true</IsPackable>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Title>Mickverm.DevToys.JsonPhpConverter</Title>
 		<Description>A JSON data to PHP converter.</Description>
 		<PackageProjectUrl>https://github.com/mickverm/DevToys.JsonPhpConverter</PackageProjectUrl>
