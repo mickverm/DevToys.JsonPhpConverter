@@ -1,6 +1,50 @@
 # JSON to PHP converter
 
-A JSON to PHP converter extension for [DevToys](https://devtoys.app/)
+A JSON Object to PHP Array converter extension for [DevToys](https://devtoys.app/)
+
+## Example
+
+Configurable options (defaults in **bold**):
+* Spacing: 2 spaces, **4 spaces**, tabs
+* Quotes: **single** or double
+* Trailing commas: **enable** or disable
+
+Input:
+
+```json
+{
+    "null": null,
+    "false": false,
+    "true": true,
+    "string": "string",
+    "array": [1, 2, 3],
+    "object": {
+        "a": "one",
+        "b": "two"
+    }
+}
+```
+
+Output:
+```php
+<?php
+
+$json = [
+    'null' => null,
+    'false' => false,
+    'true' => true,
+    'string' => 'string',
+    'array' => [
+        1,
+        2,
+        3,
+    ],
+    'object' => [
+        'a' => 'one',
+        'b' => 'two',
+    ],
+];
+```
 
 ## License
 
