@@ -18,7 +18,7 @@ Input:
     "true": true,
     "string": "string",
     "integer": 100,
-    "double": 1.0,
+    "float": 1.0,
     "array": [1, 2, 3],
     "object": {
         "a": "one",
@@ -37,7 +37,7 @@ $json = [
     'true' => true,
     'string' => 'string',
     'integer' => 100,
-    'double' => 1.0,
+    'float' => 1.0,
     'array' => [
         1,
         2,
